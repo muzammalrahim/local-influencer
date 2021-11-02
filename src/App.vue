@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <Campaign />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Campaign from './components/Campaign.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Campaign
   }
 }
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>
